@@ -1,0 +1,41 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.swp
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# Test / coverage results
+[Tt]est[Rr]esult*/
+*.coverage
+*.trx
+coverage*.json
+coverage*.xml
+
+# Publish output
+publish/
+*.publishsettings
+PublishScripts/
+
+# Local secrets & environment
+*.env
+.env.*
+appsettings.*.local.json
+
+# Misc OS files
+.DS_Store
+Thumbs.db
