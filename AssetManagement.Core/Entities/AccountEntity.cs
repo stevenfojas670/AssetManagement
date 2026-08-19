@@ -1,6 +1,6 @@
 ﻿namespace AssetManagement.Core.Entities
 {
-    public class Group
+    public class AccountEntity
     {
     }
 }

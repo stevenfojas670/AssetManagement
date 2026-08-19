@@ -1,20 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>ed66799d-1fc1-4b54-83e3-63f77568b979</UserSecretsId>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.11" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AssetManagement.Core\AssetManagement.Core.csproj" />
     <ProjectReference Include="..\AssetManagement.Infrastructure\AssetManagement.Infrastructure.csproj" />
-    <ProjectReference Include="..\AssetManagement.UseCase\AssetManagement.UseCase.csproj" />
   </ItemGroup>
 
 </Project>

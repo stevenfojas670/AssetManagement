@@ -1,6 +1,6 @@
 <Solution>
   <Project Path="AssetManagement.Core/AssetManagement.Core.csproj" />
   <Project Path="AssetManagement.Infrastructure/AssetManagement.Infrastructure.csproj" />
-  <Project Path="AssetManagement.Service/AssetManagement.Service.csproj" />
+  <Project Path="AssetManagement.UseCase/AssetManagement.UseCase.csproj" Id="2beb938f-f5bd-42eb-bbae-c909dd619c2a" />
   <Project Path="AssetManagement.Web/AssetManagement.Web.csproj" />
 </Solution>

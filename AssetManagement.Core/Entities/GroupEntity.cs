@@ -1,6 +1,6 @@
 ﻿namespace AssetManagement.Core.Entities
 {
-    public class Vendor
+    public class GroupEntity
     {
     }
 }

@@ -1,9 +1,21 @@
+using AssetManagement.Core.IServices;
+using AssetManagement.Core.Services;
+using AssetManagement.UseCase.UseCases.User;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+// Services
+builder.Services.AddScoped<IUserService, UserService>();
+
+// Use Cases
+builder.Services.AddScoped<CreateUserUseCase>();
+
+// Repositories
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
