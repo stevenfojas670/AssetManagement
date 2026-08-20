@@ -1,6 +1,7 @@
 using AssetManagement.Core.IServices;
 using AssetManagement.Core.Services;
 using AssetManagement.UseCase.UseCases.User;
+using AssetManagement.Web.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +29,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseRouting();
-
+app.UseMiddleware<HttpAnalyzerMiddleware>();
 app.UseAuthorization();
 
 app.MapStaticAssets();
